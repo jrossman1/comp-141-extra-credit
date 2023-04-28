@@ -20,7 +20,6 @@ mount | head -n 5 > mount.txt
 touch permissions.txt 
 chmod 777 permissions.txt
 
-#env var
 TESTENV1='test'
 
 grep -E '[A-Za-z]{3}' text.txt > regex.txt
